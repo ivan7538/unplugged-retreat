@@ -575,7 +575,7 @@ header nav ul li {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-        width: 40%;
+        width: 35%;
         margin: 0;
   }
 
@@ -693,6 +693,12 @@ header nav ul li {
         width: 100%;
   }
 
+  .faq h4,
+  .faq p {
+      font-size: .875em;
+      line-height: 1.125;
+  }
+
 }
 
 @media only screen and (min-width: 1200px) {
@@ -733,7 +739,7 @@ header {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-      width: 30%;
+      width: 40%;
   }
 
 .form-description {
@@ -764,6 +770,10 @@ header {
 /* ==========================================================================
    About Page
    ========================================================================== */
+   .map figure {
+     padding-bottom: 37.5%;
+   }
+
     .mission h2,
     .contact-section .content-wrapper h2 {
         width: 95%;
