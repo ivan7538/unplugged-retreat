@@ -233,6 +233,14 @@ header nav ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 50%;
+    background-color: #527158;
+    width: 40px;
+    height: 40px;
+  }
+
+  footer .social-icons p i {
+    font-size: 1.3125em;
   }
 
   footer .copyright {
@@ -317,6 +325,11 @@ header nav ul li {
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+  }
+
+  .features i {
+    font-size: 3.75em;
+    margin-bottom: 40px;
   }
 
   .features p {
@@ -552,8 +565,6 @@ header nav ul li {
       display: none;
   }
 
-
-
 /*hero area*/
 .hero-area {
   min-height: 600px;
@@ -575,7 +586,7 @@ header nav ul li {
 
   aside .content-wrapper .form-description,
   aside .content-wrapper .form {
-        width: 35%;
+        width: 40%;
         margin: 0;
   }
 
@@ -629,11 +640,11 @@ header nav ul li {
         margin: 100px 0;
   }
 
-  .footer-content {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
+  footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
   }
 
   footer .contact {
@@ -647,6 +658,11 @@ header nav ul li {
 
   footer p {
       line-height: 1.285;
+  }
+
+  footer .social-icons {
+    width: 12.5em;
+    justify-content: space-between;
   }
 
   footer .copyright {
